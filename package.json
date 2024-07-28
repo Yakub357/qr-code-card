@@ -1,7 +1,7 @@
 {
   "name": "qr-code-generator-app",
   "version": "1.0.0",
-  "description": "Frontend-mentor practise exercise ",
+  "description": "Frontend-mentor practice exercise ",
   "main": "app.js",
   "type": "module",
   "scripts": {
