@@ -67,12 +67,15 @@ footer {
 
   /* ! QR code card responsiveness   */
   /* ! QR code card is already responsive.  */
+
+  /* * ANIMATION  */
+  animation: fade-in-up ease-in-out 0.4s;
 }
 
 .qr-code__img {
   width: 288px;
   height: 288px;
-
+  transition: all ease-in-out 0.4s;
   border-radius: 10px;
   overflow: hidden;
 
@@ -80,6 +83,11 @@ footer {
     width: 100%;
     height: 100%;
   }
+}
+
+.qr-code__img:hover {
+  transform: scale(2);
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
 .qr-code__content {
@@ -118,5 +126,18 @@ footer {
   a:hover {
     color: var(--color-slate-900);
     font-weight: 700;
+  }
+}
+
+/* * Animations  */
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
   }
 }
