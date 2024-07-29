@@ -64,6 +64,9 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: var(--spacing-300, 24px);
+
+  /* ! QR code card responsiveness   */
+  /* ! QR code card is already responsive.  */
 }
 
 .qr-code__img {
